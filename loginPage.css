@@ -1,0 +1,54 @@
+body{
+    background:linear-gradient(blue,skyblue);
+}
+
+
+.form-container{
+    height:413px;
+    width:431px;
+    position:relative;
+    left:595px;
+    top:160px;
+    padding-left:9px;
+    padding-top:40px;
+    background-color:white;
+    border:1px solid white;
+    border-radius:81px;
+
+}
+.name-field{
+    height:40px;
+    width:250px;
+    margin:16px;
+    position:relative;
+    left:80px;
+    padding-left:20px;
+    border:1px solid grey;
+    border-radius:5px;
+}
+.submit-btn{
+    height:30px;
+    width:150px;
+    position:relative;
+    left:130px;
+    bottom:20px;
+    margin:10px;
+    border:1px solid grey;
+    border-radius:25px;
+
+}
+.box-field{
+    color:blueviolet;
+    font-size:20px;
+    position:relative;
+    left:50px;
+    margin:10px;
+}
+.member-field{
+    color:blueviolet;
+    font-size:20px;
+    position:relative;
+    left:155px;
+    bottom:33px;
+    margin:10px;
+}

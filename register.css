@@ -1,0 +1,50 @@
+body{
+    background:linear-gradient(blue,skyblue);
+}
+
+
+.form-field{
+    height:610px;
+    width:500px;
+    border:1px solid grey;
+    border-radius:10px;
+    position:relative;
+    left:560px;
+    top:170px;
+    background-color:white ;
+
+}
+.name-field{
+    height:40px;
+    width:300px;
+    position:relative;
+    left:71px;
+    margin:10px;
+    border-left:0;
+    border-top:0;
+    border-right:0;
+    border-bottom:1px solid grey;
+}
+.date-field{
+    position:relative;
+    left:70px;
+    top:8px;
+    width:300px;
+    margin:10px;
+    border-left:0;
+    border-top:0;
+    border-right:0;
+    border-bottom:1px solid grey;
+
+}
+.submit-btn{
+    width:100px;
+    height:30px;
+    position:relative;
+    left:161px;
+    top:8px;
+    margin:20px;
+    border:1 px solid grey;
+    border-radius:10px;
+    
+}

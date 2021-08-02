@@ -1,0 +1,24 @@
+table, th, td{
+    border:1px solid black;
+    border-collapse:collapse;
+    margin:70px;
+}
+th,td{
+    padding:10px;
+
+}
+.table-field{
+    height:500px;
+    width:800px;
+    border:1px solid white;
+    border-radius:3px;
+    
+    position:relative;
+    left:400px;
+    top:100px;
+    background-color:white;
+    
+}
+body{
+    background:linear-gradient(blue,skyblue);
+}

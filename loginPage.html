@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>LoginPage</title>
+        <link rel="stylesheet" href="./loginPage.css"/>
+    </head>
+    <body>
+        <form action="workers.html" method="post"class="form-container">
+            <center><h1>Login Form</h1></center>
+            <div>
+                <input type="text" value="" placeholder="UserName" id="name"class="name-field" required/>
+            </div>
+            <div>
+                <input type="password"  id="myPassword" value=""placeholder="Password" class="name-field" required/>
+                <label id="Validate" style="color:red; display:none;">Password should be greater than 5 characters </label>
+            </div>
+            <div class="box-field">
+                <input type="checkbox" onclick="myInput()" value="" />
+                <a>Show</a>        
+            </div>
+            <div class="member-field">
+                <input type="checkbox" value="" />
+                <a href="./register.html">newMemberSignup</a>
+            </div>
+            <div>
+                <button class="submit-btn"  onclick="myFunction()">Login</button>
+            </div>
+        </form>
+    </body>
+</html>
+<script>
+    function myInput(){
+     var input=document.getElementById("myPassword");
+     if(input.type==="password"){
+         
+         input.type="text"
+     }else{
+         input.type="password"
+     }
+    }
+    function myFunction(){
+        var value= document.getElementById("name").value;
+        var value1=document.getElementById("myPassword").value;
+        if(value==""||value1==""){
+            alert("Please fill the required fields");
+        }else{
+        }
+        if(value1.length>5){
+             document.getElementById("myPassword").value;
+            document.getElementById("Validate").value;
+        }else{
+            document.getElementById("myPassword").style="border:1px solid red";
+            document.getElementById("Validate").style="color:red;display:block";
+        }
+
+    }
+</script>
